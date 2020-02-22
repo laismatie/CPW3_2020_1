@@ -1,0 +1,11 @@
+@font-face{
+    font-family: "padrao";
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+@font-face{
+    font-family: "decorativa";
+    src: url(../fonts/Calistoga-Regular.ttf);
+}
+
+$fonte-padrao:"padrao";
+$fonte-decorativa: "decorativa";
