@@ -1,0 +1,76 @@
+@import 'fontes';
+@import 'cores';
+
+body{
+    margin: 0px;
+}
+
+#banner{
+    text-align: center;
+    padding: 40px;
+    font-family: $fonte-decorativa;
+    font-size: 170%;
+    margin-bottom: 10px;
+    background-color: $cor-banner;
+    color: white;
+    text-shadow: 2px 2px #444;
+}
+
+#conteiner{
+
+    text-align: center;
+
+    *{
+        font-family: $fonte-padrao;
+        font-size: 100%;
+    }
+    
+    input{
+        font-size: 110%;
+        padding-left: 10px;
+        margin: 30px auto 10px auto;
+        height: 30px;
+        display: block;
+        width: 260px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 1px 1px 5px $cor-banner;
+    }
+
+    #botoes{
+        display: block;
+
+    button{
+        font-weight: bold;
+        text-align: center;
+        margin: 10px auto 30px auto;
+        border-radius: 5px;
+        padding: 5px 10px;
+        background-color: $cor-botao-cpf;
+        border: 1px solid $cor-botao-cpf;
+
+        &:hover{
+            box-shadow: 1px 1px 5px rgb(100, 155, 110);
+        }
+    }
+
+    #botao2{
+        margin-left: 20px;
+        background-color: $cor-botao-cnpj;
+        border: 1px solid $cor-botao-cnpj;
+
+        &:hover{
+            box-shadow: 1px 1px 5px rgb(110, 148, 147);
+        }
+    }
+
+    }
+}
+
+#resultado{
+    text-align: center;
+    font-family: $fonte-padrao;
+    font-size: 110%;
+    font-weight: bold;
+    display: block;
+}

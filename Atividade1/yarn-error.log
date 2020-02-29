@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add sass -D
+
+PATH: 
+  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Laís\CPW3_2020_1\Atividade1\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Program Files\Genymobile\Genymotion\tools;C:\Program Files (x86)\Yarn\bin\;C:\Users\Laís\AppData\Local\Microsoft\WindowsApps;C:\Users\Laís\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\bin;;C:\Users\Laís\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\Laís\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.0.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Laís\CPW3_2020_1\Atividade1\node_modules\deasync\bin\win32-x64-node-13\deasync.node'
+
+npm manifest: 
+  {
+    "name": "Atividade1",
+    "version": "1.0.0",
+    "description": "Atividade 1 da aula de CPW3",
+    "main": "index.js",
+    "scripts": {
+      "dev": "parcel src/*.html"
+    },
+    "keywords": [],
+    "author": "Laís e Valkiria",
+    "license": "ISC",
+    "devDependencies": {
+      "parcel-bundler": "^1.12.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
