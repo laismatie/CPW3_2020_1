@@ -1,0 +1,22 @@
+{
+    "clientes": [
+        {
+            "nome": "Laís Matie Hara",
+            "cpf": "76366945144",
+            "telefone": "(67) 998787638",
+            "endereco":"Rua Paraná, 345"
+        },
+        {
+            "nome": "Valkiria Rodrigues",
+            "cpf": "33215479109",
+            "telefone": "(67) 987653456",
+            "endereco":"Av Mato Grosso, 68"
+        },
+        {
+            "nome": "Hugo Fonseca",
+            "cpf": "67787186410",
+            "telefone": "(67) 992567899",
+            "endereco":"Rua dois, 34"
+        }
+    ]
+}
