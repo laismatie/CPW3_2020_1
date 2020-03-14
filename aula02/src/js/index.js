@@ -1,4 +1,6 @@
-import LojaController from './controller/LojaController';
+import LojaView from "./view/LojaView";
 
-let controller = new LojaController();
-console.log(controller.recuperarClientes());
+let view = new LojaView();
+
+//O evento onload é invocado automaticamente quando a página é carregada
+window.onload = () => view.renderizarTabelaClientes();
