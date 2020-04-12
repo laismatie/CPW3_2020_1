@@ -1,0 +1,17 @@
+{
+  "name": "CampeoesCopaDoMundo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html"
+  },
+  "keywords": [],
+  "author": "Laís Matie",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.4.2",
+    "sass": "^1.26.3"
+  }
+}
