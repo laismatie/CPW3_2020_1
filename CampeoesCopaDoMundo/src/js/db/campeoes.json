@@ -1,0 +1,132 @@
+{
+    "times":[
+        {
+            "nome": "Uruguai",
+            "ano": 1930,
+            "nomeTecnico": "Alberto Suppici",
+            "timeDerrotado": "Argentina"
+        },
+        {
+            "nome": "Itália",
+            "ano": 1934,
+            "nomeTecnico": "Vittorio Pozzo",
+            "timeDerrotado": "Tchecoslovaquia"
+        },
+        {
+            "nome": "Itália",
+            "ano": 1938,
+            "nomeTecnico": "Vittorio Pozzo",
+            "timeDerrotado": "Hungria"
+        },
+        {
+            "nome": "Uruguai",
+            "ano": 1950,
+            "nomeTecnico": "Juan López Fontana",
+            "timeDerrotado": "Brasil"
+        },
+        {
+            "nome": "Alemanha Ocidental",
+            "ano": 1954,
+            "nomeTecnico": "Sepp Herberger",
+            "timeDerrotado": "Hungria"
+        },
+        {
+            "nome": "Brasil",
+            "ano": 1958,
+            "nomeTecnico": "Vicente Feola",
+            "timeDerrotado": "Suécia"
+        }
+        ,
+        {
+            "nome": "Brasil",
+            "ano": 1962,
+            "nomeTecnico": "Aymoré Moreira",
+            "timeDerrotado": "Tchecoslovaquia"
+        },
+        {
+            "nome": "Inglaterra",
+            "ano": 1966,
+            "nomeTecnico": "Alf Ramsey",
+            "timeDerrotado": "Alemanha Ocidental"
+        },
+        {
+            "nome": "Brasil",
+            "ano": 1970,
+            "nomeTecnico": "Zagallo",
+            "timeDerrotado": "Itália"
+        },
+        {
+            "nome": "Alemanha Ocidental",
+            "ano": 1974,
+            "nomeTecnico": "Helmut Schön",
+            "timeDerrotado": "Holanda"
+        },
+        {
+            "nome": "Argentina",
+            "ano": 1978,
+            "nomeTecnico": "César Luis Menotti",
+            "timeDerrotado": "Holanda"
+        },
+        {
+            "nome": "Itália",
+            "ano": 1982,
+            "nomeTecnico": "Enzo Bearzot",
+            "timeDerrotado": "Alemanha Ocidental"
+        },
+        {
+            "nome": "Argentina",
+            "ano": 1986,
+            "nomeTecnico": "Carlos Bilardo",
+            "timeDerrotado": "Alemanha Ocidental"
+        },
+        {
+            "nome": "Alemanha Ocidental",
+            "ano": 1990,
+            "nomeTecnico": "Franz Beckenbauer",
+            "timeDerrotado": "Argentina"
+        },
+        {
+            "nome": "Brasil",
+            "ano": 1994,
+            "nomeTecnico": "Carlos Alberto Parreira",
+            "timeDerrotado": "Itália"
+        },
+        {
+            "nome": "França",
+            "ano": 1998,
+            "nomeTecnico": "Aimé Jacquet",
+            "timeDerrotado": "Brasil"
+        },
+        {
+            "nome": "Brasil",
+            "ano": 2002,
+            "nomeTecnico": "Luiz Felipe Scolari",
+            "timeDerrotado": "Alemanha"
+        },
+        {
+            "nome": "Itália",
+            "ano": 2006,
+            "nomeTecnico": "Marcello Lippi",
+            "timeDerrotado": "França"
+        },
+        {
+            "nome": "Espanha",
+            "ano": 2010,
+            "nomeTecnico": "Vicente del Bosque",
+            "timeDerrotado": "Holanda"
+        },
+        {
+            "nome": "Alemanha",
+            "ano": 2014,
+            "nomeTecnico": "Joachim Löw",
+            "timeDerrotado": "Argentina"
+        },
+        {
+            "nome": "França",
+            "ano": 2018,
+            "nomeTecnico": "Didier Deschamps",
+            "timeDerrotado": "Croácia"
+        }
+        
+    ]
+}
