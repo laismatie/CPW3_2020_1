@@ -9,8 +9,6 @@ export default class CampeoesView{
     renderizarTabelaCampeoes(){
         let campeoes = this.campeoesController.recuperarCampeoes();
 
-       
-
         let cabecalho = this.criarCabecalhoTabelaCampeoes();
 
         let corpo = this.criarCorpoTabelaCampeoes(campeoes);
@@ -57,5 +55,37 @@ export default class CampeoesView{
 
         let tbody = `<tbody>${corpo}</tbody>`;
         return tbody;
+    }
+
+    renderizarCardsCampeoes(){
+        let campeoes = this.campeoesController.recuperarCampeoes();
+        
+        let lista = this.criarCardCampeoes(campeoes);
+
+        let card  = `<div>${lista}</div>`
+
+        document.getElementById('vizualizacaoCardsCampeoes').innerHTML = card;
+    }
+
+    criarCardCampeoes(campeoes){
+        let lista = '';
+        
+        campeoes.forEach(campeao => {
+            let campeaoStr = `
+                <div>
+                    <span>${campeao.ano}</span>
+                    <span>${campeao.nome}</span>
+                    <span>${campeao.nomeTecnico}</span>
+                    <span>${campeao.final}</span>
+                    <span>${campeao.timeDerrotado}</span>
+                    <span>${campeao.sede}</span>
+                </div>
+            `;
+
+            lista += campeaoStr;
+        });
+
+        let div = `<div>${lista}</div>`;
+        return div;
     }
 }
