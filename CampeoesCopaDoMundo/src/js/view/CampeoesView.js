@@ -60,15 +60,15 @@ export default class CampeoesView{
     renderizarCardsCampeoes(){
         let campeoes = this.campeoesController.recuperarCampeoes();
         
-        let lista = this.criarCardCampeoes(campeoes);
+        let dados = this.criarCardCampeoes(campeoes);
 
-        let card  = `<div>${lista}</div>`
+        let card  = dados;
 
         document.getElementById('vizualizacaoCardsCampeoes').innerHTML = card;
     }
 
     criarCardCampeoes(campeoes){
-        let lista = '';
+        let dados = '';
         
         campeoes.forEach(campeao => {
             let campeaoStr = `
@@ -82,10 +82,9 @@ export default class CampeoesView{
                 </div>
             `;
 
-            lista += campeaoStr;
+            dados += campeaoStr;
         });
 
-        let div = `<div>${lista}</div>`;
-        return div;
+        return dados;
     }
 }
