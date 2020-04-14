@@ -9,7 +9,7 @@ body {
 
 #banner {
     background-image: $img-banner;
-    height: 550px;
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,46 +34,68 @@ body {
 }
 
 #container {
-
     display: table;
     width: 100%;
 
 
-    * {
-        display: table-cell;
+    table{
+        border-collapse: collapse;
+        margin: 20px auto 30px auto; 
+        width: 80%;
+
+        thead{
+        background-color: $cor-tabela;
+        color: white;
+        font-size: 120%;
+        }
+
+        tr{
+            &:hover{
+                td{
+                    background-color: $cor-hover-tabela;
+                }
+            }
+        }
+
+        td{
+            font-size: 110%;
+        }
+
+        tr,td{
+            text-align: center;
+            padding: 4px 0px;
+        }
     }
 
-    .conteudo {
-        width: 80%;
-        padding: 20px;
-    }
+    
+
+
 }
 
 #rodape {
     background-color: $cor-rodape;
     color: black;
-    padding: 30px 0px;
-    width: 100%;
-
-    .copyright,.contato,.poweredBy{
-        display: inline-flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
     .copyright {
-        padding-left: 20px;
         font-family: $fonte-secundaria;
-        font-size: 100%;
+       p{
+        text-align: center;   
+        font-size: 110%;
+       }
     }
 
     .contato {
         h3 {
+            text-align: center;
             font-size: 130%;
         }
 
         a {
+            font-family: $fonte-secundaria;
             text-decoration: none;
             color: black;
         }
@@ -95,9 +117,15 @@ body {
     }
 
     .poweredBy{
-        img{
-            width: 95px;
-            margin-bottom: 10px;
+        div {
+            text-align: center;
+            h3{
+                font-size: 130%;
+            }
+
+            img{
+                width: 220px;
+            }
         }
     }
     

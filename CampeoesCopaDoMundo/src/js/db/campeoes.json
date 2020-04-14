@@ -1,131 +1,172 @@
 {
-    "times":[
-        {
+    "times":[{
             "nome": "Uruguai",
             "ano": 1930,
             "nomeTecnico": "Alberto Suppici",
-            "timeDerrotado": "Argentina"
+            "timeDerrotado": "Argentina",
+            "final": "4x2",
+            "sede": "Uruguai"
         },
         {
             "nome": "Itália",
             "ano": 1934,
             "nomeTecnico": "Vittorio Pozzo",
-            "timeDerrotado": "Tchecoslovaquia"
+            "timeDerrotado": "Tchecoslovaquia",
+            "final": "2x1",
+            "sede": "Itália"
         },
         {
             "nome": "Itália",
             "ano": 1938,
             "nomeTecnico": "Vittorio Pozzo",
-            "timeDerrotado": "Hungria"
+            "timeDerrotado": "Hungria",
+            "final": "4x2",
+            "sede": "França"
         },
         {
             "nome": "Uruguai",
             "ano": 1950,
             "nomeTecnico": "Juan López Fontana",
-            "timeDerrotado": "Brasil"
+            "timeDerrotado": "Brasil",
+            "final": "2x1",
+            "sede": "Brasil"
         },
         {
             "nome": "Alemanha Ocidental",
             "ano": 1954,
             "nomeTecnico": "Sepp Herberger",
-            "timeDerrotado": "Hungria"
+            "timeDerrotado": "Hungria",
+            "final": "3x2",
+            "sede": "Suiça"
         },
         {
             "nome": "Brasil",
             "ano": 1958,
             "nomeTecnico": "Vicente Feola",
-            "timeDerrotado": "Suécia"
+            "timeDerrotado": "Suécia",
+            "final": "5x2",
+            "sede": "Suécia"
         }
         ,
         {
             "nome": "Brasil",
             "ano": 1962,
             "nomeTecnico": "Aymoré Moreira",
-            "timeDerrotado": "Tchecoslovaquia"
+            "timeDerrotado": "Tchecoslovaquia",
+            "final": "3x1",
+            "sede": "Chile"
         },
         {
             "nome": "Inglaterra",
             "ano": 1966,
             "nomeTecnico": "Alf Ramsey",
-            "timeDerrotado": "Alemanha Ocidental"
+            "timeDerrotado": "Alemanha Ocidental",
+            "final": "4x2",
+            "sede": "Inglaterra"
         },
         {
             "nome": "Brasil",
             "ano": 1970,
             "nomeTecnico": "Zagallo",
-            "timeDerrotado": "Itália"
+            "timeDerrotado": "Itália",
+            "final": "4x1",
+            "sede": "México"
         },
         {
             "nome": "Alemanha Ocidental",
             "ano": 1974,
             "nomeTecnico": "Helmut Schön",
-            "timeDerrotado": "Holanda"
+            "timeDerrotado": "Holanda",
+            "final": "2x1",
+            "sede": "Alemanha Ocidental"
         },
         {
             "nome": "Argentina",
             "ano": 1978,
             "nomeTecnico": "César Luis Menotti",
-            "timeDerrotado": "Holanda"
+            "timeDerrotado": "Holanda",
+            "final": "3x1",
+            "sede": "Argentina"
         },
         {
             "nome": "Itália",
             "ano": 1982,
             "nomeTecnico": "Enzo Bearzot",
-            "timeDerrotado": "Alemanha Ocidental"
+            "timeDerrotado": "Alemanha Ocidental",
+            "final": "3x1",
+            "sede": "Espanha"
         },
         {
             "nome": "Argentina",
             "ano": 1986,
             "nomeTecnico": "Carlos Bilardo",
-            "timeDerrotado": "Alemanha Ocidental"
+            "timeDerrotado": "Alemanha Ocidental",
+            "final": "3x2",
+            "sede": "México"
         },
         {
             "nome": "Alemanha Ocidental",
             "ano": 1990,
             "nomeTecnico": "Franz Beckenbauer",
-            "timeDerrotado": "Argentina"
+            "timeDerrotado": "Argentina",
+            "final": "1x0",
+            "sede": "Itália"
         },
         {
             "nome": "Brasil",
             "ano": 1994,
             "nomeTecnico": "Carlos Alberto Parreira",
-            "timeDerrotado": "Itália"
+            "timeDerrotado": "Itália",
+            "final": "(3x2 pênalti)",
+            "sede": "Estados Unidos"
         },
         {
             "nome": "França",
             "ano": 1998,
             "nomeTecnico": "Aimé Jacquet",
-            "timeDerrotado": "Brasil"
+            "timeDerrotado": "Brasil",
+            "final": "3x0",
+            "sede": "França"
         },
         {
             "nome": "Brasil",
             "ano": 2002,
             "nomeTecnico": "Luiz Felipe Scolari",
-            "timeDerrotado": "Alemanha"
+            "timeDerrotado": "Alemanha",
+            "final": "2x0",
+            "sede": "Coréia do Sul e Japão"
         },
         {
             "nome": "Itália",
             "ano": 2006,
             "nomeTecnico": "Marcello Lippi",
-            "timeDerrotado": "França"
+            "timeDerrotado": "França",
+            "final": "(5x3 pênalti)",
+            "sede": "Alemanha"
         },
         {
             "nome": "Espanha",
             "ano": 2010,
             "nomeTecnico": "Vicente del Bosque",
-            "timeDerrotado": "Holanda"
+            "timeDerrotado": "Holanda",
+            "final": "1x0",
+            "sede": "África do Sul"
         },
         {
             "nome": "Alemanha",
             "ano": 2014,
             "nomeTecnico": "Joachim Löw",
-            "timeDerrotado": "Argentina"
+            "timeDerrotado": "Argentina",
+            "final": "1x0",
+            "sede": "Brasil"
         },
         {
             "nome": "França",
             "ano": 2018,
             "nomeTecnico": "Didier Deschamps",
-            "timeDerrotado": "Croácia"
+            "timeDerrotado": "Croácia",
+            "final": "4x2",
+            "sede": "Rússia"
         }
         
     ]
