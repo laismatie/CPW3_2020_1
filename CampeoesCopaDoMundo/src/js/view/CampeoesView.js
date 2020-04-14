@@ -74,11 +74,11 @@ export default class CampeoesView{
             let campeaoStr = `
                 <div>
                     <span>${campeao.ano}</span>
-                    <span>${campeao.nome}</span>
-                    <span>${campeao.nomeTecnico}</span>
-                    <span>${campeao.final}</span>
-                    <span>${campeao.timeDerrotado}</span>
-                    <span>${campeao.sede}</span>
+                    <span>Campeão: ${campeao.nome}</span>
+                    <span>Técnico: ${campeao.nomeTecnico}</span>
+                    <span>Final: ${campeao.final}</span>
+                    <span>Vice: ${campeao.timeDerrotado}</span>
+                    <span>Sede: ${campeao.sede}</span>
                 </div>
             `;
 
