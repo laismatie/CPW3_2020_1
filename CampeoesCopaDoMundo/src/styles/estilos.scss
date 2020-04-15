@@ -181,20 +181,26 @@ body {
     }
 
     #rodape{
-        display: flex;
         flex-direction: column;
-        align-items: center;
         
         .contato, .copyright, .poweredBy{
             margin-bottom: 3px;
             h3{
                 font-size: 100%;
             }
+        }
+
+        .contato{
             img{
                 width: 20px;
             }
         }
 
+        .poweredBy{
+            img{
+                width: 10px;
+            }
+        }
         .copyright{
             margin-bottom: 0px;
             img{
