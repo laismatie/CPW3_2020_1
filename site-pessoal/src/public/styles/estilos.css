@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'padrao';
+  src: url(../fonts/Barlow-Regular.ttf); }
+
+@font-face {
+  font-family: 'decorativa';
+  src: url(../fonts//Montez-Regular.ttf); }
+
+body {
+  font-family: "padrao";
+  margin: 0; }
+
+#menu {
+  padding: 10px;
+  color: #333;
+  vertical-align: middle; }
+  #menu * {
+    vertical-align: middle; }
+  #menu img {
+    width: 80px; }
+  #menu ul {
+    width: 70%; }
+    #menu ul a {
+      text-align: center;
+      margin: 10px;
+      color: #333;
+      font-size: 120%;
+      text-decoration: none; }
+    #menu ul a:hover {
+      font-weight: bold; }
+  #menu img, #menu ul, #menu li {
+    display: inline-block;
+    vertical-align: middle; }
+
+#banner {
+  font-family: "decorativa";
+  text-align: center;
+  font-size: 160%; }
+  #banner img, #banner h1 {
+    display: inline-block;
+    vertical-align: middle; }
+  #banner img {
+    height: 190px; }
+
+#centro {
+  padding: 15px; }
+  #centro p {
+    font-size: 110%; }
+
+#rodape {
+  background-color: #99180d;
+  padding: 10px;
+  height: 50px;
+  color: white; }
+  #rodape * {
+    vertical-align: middle; }
+  #rodape img {
+    width: 25px;
+    margin-right: 5px; }
+  #rodape h4, #rodape p {
+    display: inline-block;
+    margin: 20px; }

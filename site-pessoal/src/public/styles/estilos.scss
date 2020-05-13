@@ -1,0 +1,88 @@
+@import 'fontes';
+@import 'cores';
+@import 'imagens';
+
+body{
+    font-family: $fonte-padrao;
+    margin: 0;
+}
+
+
+#menu{
+    padding: 10px;
+    color: #333;
+    vertical-align: middle;
+    *{
+        vertical-align: middle;
+    }
+    img{
+        width: 80px;
+    }
+
+    ul{
+        width: 70%;
+
+            a{
+                text-align: center;
+                margin: 10px;
+                color: #333;
+                font-size: 120%;
+                text-decoration: none;
+            }
+            a:hover{
+                font-weight: bold;
+            }
+    }
+
+
+    img, ul, li{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+}
+
+#banner {
+    font-family: $fonte-decorativa;
+    text-align: center;
+    font-size: 160%;
+    
+    img, h1{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    img{
+         height:190px;
+    }
+
+}
+
+#centro{
+    padding: 15px;
+    p{
+        font-size: 110%;
+    }
+}
+
+#rodape{
+    background-color: $cor-rodape;
+    padding: 10px;
+    height: 50px;
+    color: white;
+    
+    *{
+        vertical-align: middle;
+    }
+
+    img{
+        width: 25px;
+        margin-right: 5px;
+    }
+
+    h4, p{
+        display: inline-block;
+        margin: 20px;
+    }
+
+}

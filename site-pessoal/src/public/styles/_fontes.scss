@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'padrao';
+    src: url(../fonts/Barlow-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'decorativa';
+    src: url(../fonts//Montez-Regular.ttf);
+}
+
+$fonte-padrao: 'padrao';
+$fonte-decorativa: 'decorativa';

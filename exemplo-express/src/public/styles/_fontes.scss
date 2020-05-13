@@ -1,0 +1,18 @@
+@font-face{
+    font-family: 'padrao';
+    src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'negrito';
+    src: url(../fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'decorativa';
+    src: url(../fonts/OleoScriptSwashCaps-Regular.ttf);
+}
+
+$fonte-padrao: 'padrao';
+$fonte-negrito: 'negrito';
+$fonte-decorativa: 'decorativa';

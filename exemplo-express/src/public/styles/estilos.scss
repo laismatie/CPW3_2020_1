@@ -1,0 +1,159 @@
+@import 'fontes';
+@import 'cores';
+
+body{
+    margin: 0;
+}
+
+#banner {
+    background-color: $cor-banner;
+    color: white;
+    text-align: center;
+    padding: 40px 0px 30px 0px;
+
+    h1{
+        font-family: $fonte-decorativa;
+        font-size: 300%;
+        text-shadow: 3px 2px black;
+    }
+
+    p{
+        font-family: $fonte-padrao;
+        font-size: 120%;
+        text-shadow: 2px 2px black;
+    }
+}
+
+#centro{
+    display: flex;
+    font-family: $fonte-padrao;
+    font-size: 100%;
+}
+
+#menu{
+    width: 20%;
+    background-color: $cor-menu;
+    color: white;
+    padding: 20px 0px 40px 20px;
+
+    span{
+        font-size: 150%;
+        font-family: $fonte-negrito;
+    }
+
+    ul{
+        list-style: none;
+        padding-left: 0;
+
+        a{
+            text-decoration: none;
+            color: white;
+            &:hover{
+                color: $cor-hover;
+            }
+        }
+
+        li{
+            margin-bottom: 7px;
+        }
+    }
+
+}
+
+#conteudo{
+    width: 80%;
+    padding: 10px;
+}
+
+#cadastroCliente{
+    text-align: center;
+    form{
+        width: 80%;
+        margin: auto;
+        display: inline-flex;
+        font-size: 110%;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+
+        label{
+            margin-right: 8px;
+        }
+
+        input{
+            height: 28px;
+            font-size: 100%;
+            border-radius: 5px;
+            border: 1px solid #aaaaaa;
+            padding-left: 10px;
+            outline: none;
+        }
+
+        input[type='submit']{
+            padding: 12px 22px;
+            height: inherit;
+            font-size: 90%;
+            background-color: $cor-rodape;
+            border: none;
+            color: white;
+            font-weight: bold;
+
+            &:hover{
+                transition: 0.5s;
+                background-color: $cor-hover-botao;
+            }
+        }
+    }
+}
+
+#visualizacaoClientes{
+    margin-bottom: 20px;
+    span{
+        font-size: 110%;
+        margin-left: 20px;
+    }
+    table{
+        border-collapse: collapse;
+        margin: 0px auto 30px auto;
+        width: 70%;
+        font-size: 105%;
+        thead{
+            background-color: $cor-banner;
+            color: white;
+
+            th{
+                text-align: center;
+                padding: 5px;
+            }
+        }
+        tbody{
+            background-color: $cor-tabela;
+        }
+        tr{
+            &:nth-child(even){
+                background-color: $cor-linha;
+            }
+            &:hover{
+                td{
+                    background-color: $cor-hover;
+                }
+            }
+            tr,td{
+                text-align: right;
+                padding: 5px;
+                &:first-child{
+                    padding-left: 5px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+#rodape{
+    background-color: $cor-rodape;
+    color: white;
+    padding: 15px;
+    font-size: 90%;
+    font-family: $fonte-negrito;
+}
