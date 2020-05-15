@@ -1,4 +1,18 @@
 extends layout
 
 block conteudo
-    p Oi
+    #textoPrincipal
+        h1 Bem vindo!
+    #container
+        #colunas
+            a(href="/bio", target="_self")
+                img(src="../img/detective.png", alt="")
+                p Antes de tudo, conheça um pouco sobre mim na aba "Bio".
+        #colunas2
+            a(href="/portfolio", target="_self")
+                img(src="../img/keys.png", alt="Desenho de um teclado")
+                p Conheça um pouco dos projetos que já realizei navegando para a página "Portfólio".
+        #colunas3
+            a(href="/contato", target="_self")
+                img(src="../img/mobile.png", alt="Celular com avatar e um balão de conversa")
+                p Gostou do meu trabalho? Entre em contato, é só clicar aqui!

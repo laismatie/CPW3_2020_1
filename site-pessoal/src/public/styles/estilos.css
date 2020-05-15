@@ -39,6 +39,11 @@ body {
   #banner img, #banner h1 {
     display: inline-block;
     vertical-align: middle; }
+  #banner p {
+    margin: 0px;
+    font-size: 90%;
+    font-weight: bold;
+    font-family: "padrao"; }
   #banner img {
     height: 190px; }
 
@@ -47,16 +52,60 @@ body {
   #centro p {
     font-size: 110%; }
 
+#textoPrincipal {
+  margin: 50px auto 50px 20px; }
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; }
+  #container * {
+    vertical-align: middle;
+    flex-direction: column; }
+  #container a {
+    text-decoration: none;
+    color: black;
+    font-size: 120%; }
+  #container p {
+    width: 350px; }
+  #container img {
+    width: 130px; }
+
+#redes {
+  margin: 2px auto 20px 20px; }
+  #redes * {
+    vertical-align: middle;
+    display: inline; }
+  #redes img {
+    width: 45px;
+    margin-right: 10px; }
+
+#texto {
+  font-size: 100%; }
+
 #rodape {
-  background-color: #99180d;
-  padding: 10px;
-  height: 50px;
-  color: white; }
+  background-color: #c60c30;
+  padding: 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
   #rodape * {
     vertical-align: middle; }
-  #rodape img {
-    width: 25px;
-    margin-right: 5px; }
-  #rodape h4, #rodape p {
-    display: inline-block;
-    margin: 20px; }
+  #rodape #parte {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold; }
+    #rodape #parte img {
+      width: 70px;
+      margin-right: 10px; }
+  #rodape #parte2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline; }
+    #rodape #parte2 img {
+      width: 25px;
+      margin-right: 5px; }
+      #rodape #parte2 img:hover {
+        filter: contrast(80%); }
