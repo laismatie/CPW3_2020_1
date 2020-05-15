@@ -79,13 +79,58 @@ body {
   #redes img {
     width: 45px;
     margin-right: 10px; }
+  #redes:hover {
+    filter: opacity(0.9); }
+
+#biografia {
+  display: flex;
+  justify-content: center; }
+
+#portfolio img {
+  width: 800px;
+  border-radius: 10px; }
+
+#portfolio a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold; }
+
+#sessao {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center; }
+  #sessao p {
+    font-size: 115%;
+    text-align: justify;
+    margin-right: 30px; }
+
+#sessao2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center; }
+  #sessao2 p {
+    font-size: 115%;
+    text-align: justify;
+    margin-left: 30px; }
 
 #texto {
-  font-size: 100%; }
+  font-size: 105%;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center; }
+  #texto img {
+    width: 250px;
+    border-radius: 10px; }
+  #texto #paragrafo p {
+    text-align: justify;
+    padding: 5px 70px 20px 0px; }
 
 #rodape {
   background-color: #c60c30;
-  padding: 40px;
+  padding: 20px;
   color: white;
   display: flex;
   justify-content: space-between;
