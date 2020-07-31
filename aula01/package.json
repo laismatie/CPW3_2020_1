@@ -152,7 +152,7 @@
     "domexception": "^1.0.1",
     "duplexer2": "^0.1.4",
     "dotenv-expand": "^5.1.0",
-    "dot-prop": "^4.2.0",
+    "dot-prop": "^5.2.0",
     "domhandler": "^2.4.2",
     "ecc-jsbn": "^0.1.2",
     "dotenv": "^5.0.1",
